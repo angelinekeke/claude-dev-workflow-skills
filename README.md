@@ -22,10 +22,10 @@
 ### 方式 A：全局安装（所有项目都能用）
 
 ```bash
-git clone https://github.com/angelinekeke/claude-dev-workflow-skills ~/.claude/skills/claude-dev-workflow-skills
-cp -r ~/.claude/skills/claude-dev-workflow-skills/continue ~/.claude/skills/
-cp -r ~/.claude/skills/claude-dev-workflow-skills/progress ~/.claude/skills/
-cp -r ~/.claude/skills/claude-dev-workflow-skills/daily-log ~/.claude/skills/
+git clone https://github.com/angelinekeke/claude-workflow-skills ~/.claude/skills/claude-workflow-skills
+cp -r ~/.claude/skills/claude-workflow-skills/continue ~/.claude/skills/
+cp -r ~/.claude/skills/claude-workflow-skills/progress ~/.claude/skills/
+cp -r ~/.claude/skills/claude-workflow-skills/daily-log ~/.claude/skills/
 ```
 
 ### 方式 B：项目内安装（仅限单个项目）
@@ -34,10 +34,10 @@ cp -r ~/.claude/skills/claude-dev-workflow-skills/daily-log ~/.claude/skills/
 
 ```bash
 mkdir -p .claude/skills
-git clone https://github.com/angelinekeke/claude-dev-workflow-skills /tmp/claude-dev-workflow-skills
-cp -r /tmp/claude-dev-workflow-skills/continue .claude/skills/
-cp -r /tmp/claude-dev-workflow-skills/progress .claude/skills/
-cp -r /tmp/claude-dev-workflow-skills/daily-log .claude/skills/
+git clone https://github.com/angelinekeke/claude-workflow-skills /tmp/claude-workflow-skills
+cp -r /tmp/claude-workflow-skills/continue .claude/skills/
+cp -r /tmp/claude-workflow-skills/progress .claude/skills/
+cp -r /tmp/claude-workflow-skills/daily-log .claude/skills/
 ```
 
 ---
